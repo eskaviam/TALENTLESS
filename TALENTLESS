@@ -1362,7 +1362,7 @@ local songs = {
     {button = RIPTIDE, bpm = "90", var = false, url = "RIPTIDE", cat = {"pop/hiphop", "new"}},
     {button = SAILOR_SONG, bpm = "83", var = false, url = "SAILOR_SONG", cat = {"sad", "new"}},
     {button = MEJIKUHIBINIU_TENXI, bpm = "120", var = false, url = "MEJIKUHIBINIU_TENXI", cat = {"new", "pop/hiphop"}},
-    {button = GARAM_MADU_TENXI, bpm = "120", var = false, url = "GARAM_MADU_TENXI", cat = {"new", "pop/hiphop"},}
+    {button = GARAM_MADU_TENXI, bpm = "120", var = false, url = "GARAM_MADU_TENXI", cat = {"new", "pop/hiphop"}},
     {button = OURS_TO_KEEP_V1, bpm = "120", var = false, url = "OURS_TO_KEEP_V1", cat = {"new", "sad"}},
     {button = OURS_TO_KEEP_V2, bpm = "120", var = false, url = "OURS_TO_KEEP_V1", cat = {"new", "sad"}},
     {button = LOVE_SONGS_KAASH, bpm = "120", var = false, url = "LOVE_SONGS_KAASH", cat = {"new", "sad"}}
