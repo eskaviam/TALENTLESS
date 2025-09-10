@@ -946,7 +946,11 @@ YUUSHA = newSongButton("YUUSHA (THE BRAVE)", 22, {"yoasobi", "frieren"})
 ZOMBIE = newSongButton("ZOMBIE", 27, {"the cranberries"})
 MANGOMANGOMANGO = newSongButton("MANGO MANGO MANGO", 27, {""})
 DEATH_WALTZ = newSongButton("DEATH WALTZ (WARNING)", 19, {""})
-MEJIKUHIBINIU_TENXI = newSongButton("MEJIKUHIBINIU - TENXI", 27, {""})
+MEJIKUHIBINIU_TENXI = newSongButton("MEJIKUHIBINIU - TENXI", 19, {""})
+GARAM_MADU_TENXI = newSongButton("GARAM & MADU - TENXI", 19, {""})
+OURS_TO_KEEP_V1 = newSongButton("OURS TO KEEP V1 - Kendis Adis", 19, {""})
+OURS_TO_KEEP_V2 = newSongButton("OURS TO KEEP V2 - Kendis Adis", 19, {""})
+LOVE_SONGS_KAASH = newSongButton("Love Song - Kaash", 19, {""})
 
 local framebuttons = {}
 
@@ -1358,6 +1362,10 @@ local songs = {
     {button = RIPTIDE, bpm = "90", var = false, url = "RIPTIDE", cat = {"pop/hiphop", "new"}},
     {button = SAILOR_SONG, bpm = "83", var = false, url = "SAILOR_SONG", cat = {"sad", "new"}},
     {button = MEJIKUHIBINIU_TENXI, bpm = "120", var = false, url = "MEJIKUHIBINIU_TENXI", cat = {"new", "pop/hiphop"}}
+    {button = GARAM_MADU_TENXI, bpm = "120", var = false, url = "GARAM_MADU_TENXI", cat = {"new", "pop/hiphop"}}
+    {button = OURS_TO_KEEP_V1, bpm = "120", var = false, url = "OURS_TO_KEEP_V1", cat = {"new", "sad"}}
+    {button = OURS_TO_KEEP_V2, bpm = "120", var = false, url = "OURS_TO_KEEP_V1", cat = {"new", "sad"}}
+    {button = LOVE_SONGS_KAASH, bpm = "120", var = false, url = "LOVE_SONGS_KAASH", cat = {"new", "sad"}}
 }
 
 for _, song in ipairs(songs) do
