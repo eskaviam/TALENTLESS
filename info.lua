@@ -1,4 +1,4 @@
-local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/notif_lib.lua"))()
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/notif_lib.lua"))()
 
 local function playSound(soundId, loudness)
     local sound = Instance.new("Sound")

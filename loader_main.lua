@@ -4,7 +4,7 @@
 _G.STOPIT = false
 
 local NotificationLibrary =
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/notif_lib.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/notif_lib.lua"))()
 
 function playSound(soundId, loudness)
     local sound = Instance.new("Sound")
@@ -16,7 +16,7 @@ end
 
 x = "hi"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/load.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/load.lua", true))()
 
 wait(0.3)
 

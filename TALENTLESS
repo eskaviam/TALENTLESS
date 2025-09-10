@@ -1,11 +1,7 @@
 -- Copyright (C) 2025 hellohellohell012321
 -- Licensed under the GNU GPL v3. See LICENSE file for details.
 
-loadstring(
-    game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/discordpopup/main/discordpopup.lua", true)
-)()
-
-local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/notif_lib.lua"))()
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/notif_lib.lua"))()
 
 local ContentProvider = game:GetService("ContentProvider")
 
@@ -373,7 +369,7 @@ if gameId == 3929033413 then
 
     spoofMidiInfo.MouseButton1Click:Connect(
         function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/spoofMidiInfo.lua", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/spoofMidiInfo.lua", true))()
         end
     )
 
@@ -950,6 +946,7 @@ YUUSHA = newSongButton("YUUSHA (THE BRAVE)", 22, {"yoasobi", "frieren"})
 ZOMBIE = newSongButton("ZOMBIE", 27, {"the cranberries"})
 MANGOMANGOMANGO = newSongButton("MANGO MANGO MANGO", 27, {""})
 DEATH_WALTZ = newSongButton("DEATH WALTZ (WARNING)", 19, {""})
+MEJIKUHIBINIU_TENXI = newSongButton("MEJIKUHIBINIU - TENXI", 27, {""})
 
 local framebuttons = {}
 
@@ -1360,9 +1357,7 @@ local songs = {
     {button = BOHEMIAN_RHAPSODY, bpm = "80", var = false, url = "BOHEMIAN_RHAPSODY", cat = {"rock", "new"}},
     {button = RIPTIDE, bpm = "90", var = false, url = "RIPTIDE", cat = {"pop/hiphop", "new"}},
     {button = SAILOR_SONG, bpm = "83", var = false, url = "SAILOR_SONG", cat = {"sad", "new"}},
-
-
-
+    {button = MEJIKUHIBINIU_TENXI, bpm = "120", var = false, url = "MEJIKUHIBINIU_TENXI", cat = {"new", "pop/hiphop"}}
 }
 
 for _, song in ipairs(songs) do
@@ -1582,11 +1577,11 @@ function playbuttonclicked()
     if spoofMidiPlz == true then
         -- Spoof MIDI
         loadstring(
-            game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/midi_spoof_loader.lua", true)
+            game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/midi_spoof_loader.lua", true)
         )()
     else
         loadstring(
-            game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/loader_main.lua", true)
+            game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/loader_main.lua", true)
         )()
     end
 
@@ -1598,7 +1593,7 @@ function playbuttonclicked()
             if song.var == true then
                 loadstring(
                     game:HttpGet(
-                        "https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/SONGS/" .. song.url,
+                        "https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/SONGS/" .. song.url,
                         true
                     )
                 )()
@@ -1727,7 +1722,7 @@ closeButton.MouseButton1Click:Connect(
 infoButton.MouseButton1Click:Connect(
     function()
         loadstring(
-            game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/info.lua", true)
+            game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/info.lua", true)
         )()
     end
 )
@@ -1875,7 +1870,7 @@ print("loaded NEWSONGBUTTON")
 NEWSONGBUTTON.MouseButton1Click:Connect(
     function()
         loadstring(
-            game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/add_song.lua", true)
+            game:HttpGet("https://raw.githubusercontent.com/eskaviam/TALENTLESS/main/add_song.lua", true)
         )()
     end
 )
@@ -2200,22 +2195,3 @@ for _, songFrame in ipairs(customsongbuttons) do
         end)
     end
 end
-
-print([[
-
-
-
- __ __|   \     |      ____|   \  | __ __|  |      ____|   ___|   ___|
-    |    _ \    |      __|      \ |    |    |      __|   \___ \ \___ \
-    |   ___ \   |      |      |\  |    |    |      |           |      |
-   _| _/    _\ _____| _____| _| \_|   _|   _____| _____| _____/ _____/
-
-
-
-]])
-
-print("Copyright (C) 2025 hellohellohell012321")
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/fake_ad.lua", true))()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/TALENTLESS/main/logger.lua", true))()
