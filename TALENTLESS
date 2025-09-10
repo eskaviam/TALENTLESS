@@ -948,9 +948,21 @@ MANGOMANGOMANGO = newSongButton("MANGO MANGO MANGO", 27, {""})
 DEATH_WALTZ = newSongButton("DEATH WALTZ (WARNING)", 19, {""})
 MEJIKUHIBINIU_TENXI = newSongButton("MEJIKUHIBINIU - TENXI", 19, {""})
 GARAM_MADU_TENXI = newSongButton("GARAM & MADU - TENXI", 19, {""})
-OURS_TO_KEEP_V1 = newSongButton("OURS TO KEEP V1 - Kendis Adis", 19, {""})
-OURS_TO_KEEP_V2 = newSongButton("OURS TO KEEP V2 - Kendis Adis", 19, {""})
+OURS_TO_KEEP_V1 = newSongButton("OURS TO KEEP V1 - Kendis Adis", 14, {""})
+OURS_TO_KEEP_V2 = newSongButton("OURS TO KEEP V2 - Kendis Adis", 14, {""})
 LOVE_SONGS_KAASH = newSongButton("Love Song - Kaash", 19, {""})
+SATU_BULAN_BERNADYA = newSongButton("Satu Bulan - Bernadya", 19, {"bernadya"})
+KATA_MEREKA_INI_BERLEBIHAN_BERNADYA = newSongButton("Kata Mereka Ini Berlebihan - Bernadya", 10, {"bernadya"})
+BACKBURNER_NIKI = newSongButton("Backburner - Niki", 19, {"niki"})
+OCEANS_N_ENGINES_NIKI = newSongButton("Oceans & Engines - Niki", 19, {"niki"})
+HIDUP_BERPUTAR_BERNADYA = newSongButton("Untungnya, Hidup Harus Tetap Berjalan - Bernadya", 10, {"bernadya"})
+KILL_BILL_SZA = newSongButton("Kill Bill - SZA", 16, {"sza"})
+DIE_FOR_YOU_JOJI = newSongButton("Die For You - Joji", 16, {"joji"})
+ABOUT_YOU_1975 = newSongButton("About You - The 1975", 16, {"1975"})
+BACK_TO_FRIENDS = newSongButton("Back To Friends - sombr", 16, {"sombr"})
+ALL_OF_ME = newSongButton("All Of Me - John Legends", 16, {""})
+NINA_FEAST = newSongButton("Nina - Feast", 16, {""})
+RUMAH_KE_RUMAH = newSongButton("Rumah ke Rumah - Feast", 16, {""})
 
 local framebuttons = {}
 
@@ -1365,7 +1377,19 @@ local songs = {
     {button = GARAM_MADU_TENXI, bpm = "120", var = false, url = "GARAM_MADU_TENXI", cat = {"new", "pop/hiphop"}},
     {button = OURS_TO_KEEP_V1, bpm = "120", var = false, url = "OURS_TO_KEEP_V1", cat = {"new", "sad"}},
     {button = OURS_TO_KEEP_V2, bpm = "120", var = false, url = "OURS_TO_KEEP_V1", cat = {"new", "sad"}},
-    {button = LOVE_SONGS_KAASH, bpm = "120", var = false, url = "LOVE_SONGS_KAASH", cat = {"new", "sad"}}
+    {button = LOVE_SONGS_KAASH, bpm = "120", var = false, url = "LOVE_SONGS_KAASH", cat = {"new", "sad"}},
+    {button = SATU_BULAN_BERNADYA, bpm = "90", var = false, url = "SATU_BULAN_BERNADYA", cat = {"new", "sad"}},
+    {button = KATA_MEREKA_INI_BERLEBIHAN_BERNADYA, bpm = "120", var = false, url = "KATA_MEREKA_INI_BERLEBIHAN_BERNADYA", cat = {"new", "sad"}},
+    {button = BACKBURNER_NIKI, bpm = "120", var = false, url = "BACKBURNER_NIKI", cat = {"new", "sad"}},
+    {button = OCEANS_N_ENGINES_NIKI, bpm = "143", var = false, url = "OCEANS_N_ENGINES_NIKI", cat = {"new", "sad"}},
+    {button = HIDUP_BERPUTAR_BERNADYA, bpm = "85", var = false, url = "HIDUP_BERPUTAR_BERNADYA", cat = {"new", "sad"}},
+    {button = KILL_BILL_SZA, bpm = "178", var = false, url = "KILL_BILL_SZA", cat = {"new", "sad"}},
+    {button = DIE_FOR_YOU_JOJI, bpm = "74", var = false, url = "DIE_FOR_YOU_JOJI", cat = {"new", "sad"}},
+    {button = ABOUT_YOU_1975, bpm = "96", var = false, url = "ABOUT_YOU_1975", cat = {"new", "sad"}},
+    {button = BACK_TO_FRIENDS, bpm = "92", var = false, url = "BACK_TO_FRIENDS", cat = {"new", "sad"}},
+    {button = ALL_OF_ME, bpm = "127", var = false, url = "ALL_OF_ME", cat = {"new", "sad"}},
+    {button = NINA_FEAST, bpm = "90", var = false, url = "NINA_FEAST", cat = {"new", "sad"}},
+    {button = RUMAH_KE_RUMAH, bpm = "115", var = false, url = "RUMAH_KE_RUMAH", cat = {"new", "sad"}}
 }
 
 for _, song in ipairs(songs) do
